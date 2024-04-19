@@ -33,7 +33,7 @@ let PhaseValueMapping: [Phase: [PhaseItem: Double]] = [
     // 缓动停止 (自动, 如缓动到达临界值)
     Phase.PauseAuto: [PhaseItem.Scroll: 0.0, PhaseItem.Momentum: 3.0],
     // 缓动停止 (手动)
-    Phase.PauseManual: [PhaseItem.Scroll: 4.0, PhaseItem.Momentum: 0.0],
+    Phase.PauseManual: [PhaseItem.Scroll: 0.0, PhaseItem.Momentum: 0.0],
 ]
 
 class ScrollPhase {
